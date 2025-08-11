@@ -20,3 +20,7 @@ Model Evaluation – Assessing performance before and after feature engineering:
 2) Matplotlib / Seaborn for visualization
 
 3) Jupyter Notebook for interactive development
+
+** Explaination about the project :-
+--> First I have taken the data from the kaggle known as loan_approved.csv
+--> Then I have processed Eda which is used for cleaning the data and also removed duplicate and null values , the  I use displot to check if it is normally distributed and if not then again clean it, after that Ii have prrforme outlier and removed it as it will give incorrect data, and then i have import scipy to import boxcox and then i have used sckitlearn to import ordinal encoder and build a model.
