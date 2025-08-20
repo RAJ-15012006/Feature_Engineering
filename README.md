@@ -1,25 +1,45 @@
 📊 Feature Engineering for Machine Learning
 This project demonstrates various feature engineering techniques to improve the performance of machine learning models. It covers the complete process from data preprocessing to feature transformation, creation, and selection.
 
-🔹 Features
-1) Data Cleaning – Handling missing values, outliers, and inconsistencies.
+📌 Feature Engineering on Loan Approval Dataset
 
-2) Feature Transformation – Scaling, normalization, encoding categorical variables.
+This project demonstrates feature engineering and data preprocessing techniques on a loan approval dataset. The PDF walks through the complete process of preparing raw data for machine learning, including:
 
-3) Feature Creation – Deriving new meaningful features from existing data.
+1) Data Cleaning
 
-4) Feature Selection – Removing redundant or less important features using statistical and model-based methods.
+2) Dropping unnecessary columns (like Loan_ID)
 
-5) Dimensionality Reduction – PCA, LDA, and other techniques.
+3) Handling constant columns and duplicates
 
-Model Evaluation – Assessing performance before and after feature engineering:-
+4) Treating missing values using mean, median, or mode
 
-🛠 Tech Stack
-1) Python (Pandas, NumPy, Scikit-learn)
+5) Handling Outliers
 
-2) Matplotlib / Seaborn for visualization
+6) Detecting outliers using boxplots & distributions
 
-3) Jupyter Notebook for interactive development
+7) Applying transformations (Log, Square Root, Box-Cox) to normalize skewed data
+
+8) Encoding Categorical Variables
+
+9) Label Encoding (for ordinal data like Married, Education)
+
+0) One-Hot Encoding (for nominal data like Gender)
+
+11) Manual encoding (for Property_Area)
+
+12) Scaling & Feature Transformation
+
+13) Creating new features (ApplicantIncome_log, CoapplicantIncome_sqrt)
+
+14) Ensuring data is ready for ML models
+
+15) Exploratory Data Analysis (EDA)
+
+16) Visualizations using Seaborn & Matplotlib to understand feature relationships
+
+17) Checking target distribution (Loan_Status) across different categories
+
+# Jupyter Notebook for interactive development :-
 
 ** Explaination about the project :-
 --> First I have taken the data from the kaggle known as loan_approved.csv
